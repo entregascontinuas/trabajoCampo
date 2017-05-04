@@ -40,7 +40,7 @@
             </li>
           <?php } ?>
           
-          
+          <!--
           <?php if(Tools::hasPermission(3)){ ?>
             <li class="menu__item has__submenu <?php echo (strtolower($path[0]) == 'vehiculos')?'active':''; ?>">
               <p class="item row middle-xs">
@@ -79,7 +79,7 @@
                 <span>Reportes</span>
               </a>
             </li>
-          <?php } ?>
+          <?php } ?>-->
 
 
         </ul>

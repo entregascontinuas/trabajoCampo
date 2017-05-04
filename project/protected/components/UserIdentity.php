@@ -21,8 +21,8 @@ class UserIdentity extends CUserIdentity
 
 		if(!is_object($user))
 			$this->errorCode=self::ERROR_USERNAME_INVALID;
-		//else if($user->password!==$this->password)
-		else if(crypt($this->password, $user->password) != $user->password)
+		else if($user->password!==$this->password)
+		//else if(crypt($this->password, $user->password) != $user->password)
 			$this->errorCode=self::ERROR_PASSWORD_INVALID;
 		else{
 			$this->errorCode=self::ERROR_NONE;

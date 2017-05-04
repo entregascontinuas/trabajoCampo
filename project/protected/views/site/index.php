@@ -17,7 +17,7 @@
 					<i class="fa fa-car" aria-hidden="true"></i>
 				</div>
 				<div class="widget__text">
-					<p>VEHÍCULOS <strong>REGISTRADOS</strong></p>
+					<!--<p>VEHÍCULOS <strong>REGISTRADOS</strong></p>
 					<h2><?php echo $vehiculos; ?></h2>
 				</div>
 			</div>
@@ -106,5 +106,5 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 </div>
